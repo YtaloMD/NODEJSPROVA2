@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  title= title 
+  ul  
+      each item in array
+        if item== "elem 3"
+          li #{item}
+        else
+          li Non sono il 3
+
+
+  p Welcome on #{title}
+  

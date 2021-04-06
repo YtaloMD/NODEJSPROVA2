@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  title= title 
+  p Welcome on #{title}
+  form.box( action="index.html", method="post")
+    h1 Login
+    input( type="text", name="", placeholder="Username")
+    input( type="password", name="", placeholder="Password")
+    input( type="submit", name="", value="Login")

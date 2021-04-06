@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    //title= title è come fare innerHTML, innietto il valore json "title" nel h1
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    a(href="/")
+      h2#logo LOGO
+    
+    a(href=`${link}`) Login
+    block content
+    footer#footer
+      h2 Copyright Siluan Vascautan  
